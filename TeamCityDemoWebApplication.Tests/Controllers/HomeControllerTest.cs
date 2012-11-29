@@ -10,6 +10,8 @@ namespace TeamCityDemoWebApplication.Tests.Controllers
 		[Test]
 		public void Index()
 		{
+			Assert.Fail("Making sure TeamCity runs my tests.");
+
 			// Arrange
 			HomeController controller = new HomeController();
 
